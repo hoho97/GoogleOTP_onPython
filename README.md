@@ -15,9 +15,14 @@ This can be run on Python 3 only. Only a simple function to calculate OTP using 
 To use this tool, you need to decode the QR code of Authenticator first and have something like
 otpauth://totp/Account?secret=XXXXXXXXXXXXXXXX&issuer=ISSUER
 
-Use the secret XXXXXXXXXXXXXXXX from your QR code as argument
+Use the secret XXXXXXXXXXXXXXXX from your QR code as your input
 
-sample usage: 
+example usage: 
+
+Simply Run main.py once downloaded.
+
+
+or if you want to use this function somewhere else:
 
 import OTP
 
