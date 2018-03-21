@@ -20,6 +20,7 @@ Use the secret XXXXXXXXXXXXXXXX from your QR code as argument
 sample usage: 
 
 import OTP
+
 OTP("XXXXXXXXXXXXXXXX")
 
 And the program will return the OTP calculated.
